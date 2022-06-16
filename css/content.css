@@ -1,0 +1,150 @@
+.content {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin: 0 auto;
+  padding-top: 4rem;
+  gap: 4rem;
+  margin-bottom: 12rem;
+}
+
+.content .img {
+  width: 80%;
+}
+
+.content .img img {
+  width: 100%;
+}
+
+.content_section1 {
+    gap: 1.2rem;
+    display: grid;
+}
+
+.content_section1 .title {
+    color: var(--cor_1);
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+.paragraph {
+    color: var(--cor_2);
+    font-weight: 700;
+}
+
+.avaliacao_fone {
+    display: grid;
+    gap: .8rem;
+}
+
+.icon_star {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.icon_star .avaliacao {
+    margin-left: .5rem;
+    font-weight: 700;
+    color: var(--cor_1);
+}
+
+
+.material-symbols-outlined.star {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48;
+  color: var(--cor_1);
+}
+
+.material-symbols-outlined.grade {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48;
+  color: var(--cor_1);
+}
+
+.vantagens .Datasheet {
+    font-weight: 400;
+    color: var(--cor_3);
+}
+
+.preco_add {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.preco_add .preco {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--cor_2);
+}
+
+.preco_add .add_btn {
+    display: block;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    background-color: var(--cor_1);
+    text-align: center;
+    transition: .3s;
+}
+
+
+.preco_add .add_btn:hover {
+    background-color: var(--cor_2);
+}
+
+@media (max-width: 920px) {
+    .content {
+        gap: 1rem;
+    }
+    .content_section1  .title {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+    }
+    .preco_add {
+        gap: 1rem;
+    }
+    .preco_add .preco {
+        font-size: 1.6rem;
+    }
+    .preco_add .add_btn {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 300px) {
+       .content {
+        gap: 2rem;
+    }
+    .content_section1 .title {
+        font-size: 1.3rem;
+    }
+    .preco_add {
+        gap: .4rem;
+    }
+    .preco_add .preco {
+        font-size: 1.6rem;
+    }
+        .preco_add .add_btn {
+        font-size: .7rem;
+    }
+}
