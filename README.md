@@ -4,7 +4,7 @@
 <p align="center">
     <img src="https://i.imgur.com/YuUaCDv.gif" alt="Logo" width="1000">
 
-  <h3 align="center">Fone landing page by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a></h3>
+  <h3 align="center">Fone landing page by <a href="https://www.linkedin.com/in/paulo-vitor3101/">Paulo Vitor</a></h3>
  <br />
   <p align="center">
      Página para compra de um fone de ouvido
@@ -78,4 +78,4 @@ Para os ícones, recomendamos que utilize alguma biblioteca, como o Font Awesome
 Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
 Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
 
-Desafio criado por  <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)
+Desafio criado por  <a href="https://www.linkedin.com/in/paulo-vitor3101/">Emmanuel Messias</a> :)
